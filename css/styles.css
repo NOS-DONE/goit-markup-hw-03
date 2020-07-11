@@ -179,11 +179,19 @@ a {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #FFFFFF;
+     /* для видимості */
+    color: #868686;
     width: 696px;
-    /* для видимості */
-    background-color: rgba(0, 0, 0, 0.082); 
+}
 
+.hero-button {
+    display: block;
+    min-width: 200px;
+    min-height: 50px;
+    border: 0;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hero-button,
