@@ -40,6 +40,7 @@ html {
     box-sizing: border-box;
   }
 
+
 *,
 *::before,
 *::after {
@@ -55,13 +56,43 @@ body{
     background-color: #ffffff;
     font-size: 14px;
 }
- li {
+
+h1 {
+    margin: 0;
+ }
+
+li {
      list-style: none;
  }
 
- a {
+a {
     text-decoration: none;
+    display: block;
  }
+
+
+ .container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ .link {
+
+ }
+
+ /* header */
+ header .container {
+     display: flex;
+     align-items: center;
+ }
+
+ /* .web-studio-header {
+     padding-top: 24px;
+     padding-bottom: 25px;
+ } */
 
 .logo {
     font-family: var(--secondary-font);
@@ -70,14 +101,34 @@ body{
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: #000000;
+    margin-right: 85px;
+    /* padding-top: 24px;  */
 }
 
 .logo span{
     color: var(--accent-color)
 }
 
-.nav-link a,
-.header-adress a {
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.nav-item-link {
+    padding-top: 32px;
+    padding-bottom: 25px;
+}
+
+.nav-item a,
+.header-adress-list a {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -85,22 +136,43 @@ body{
     color: #212121;
 
 }
-.nav-link a:hover,
-.nav-link a:focus {
+
+.header-adress {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+.header-adress-list:not(:last-child) {
+    margin-right: 30px;
+}
+
+.nav-item a:hover,
+.nav-item a:focus {
     color: var(--accent-color);
 
 }
 
-.header-adress a {
+.header-adress-list a {
     color: #757575;
+    padding-top: 32px;
+    padding-bottom: 25px;
 }
 
-.header-adress a:hover,
-.header-adress a:focus {
+
+.header-adress-list a:hover,
+.header-adress-list a:focus {
     color: var(--accent-color);
 }
+
+/* hero-section */
 
 .hero-title {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 200px;
+    margin-bottom: 20px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -108,8 +180,10 @@ body{
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
+    width: 696px;
     /* для видимості */
     background-color: rgba(0, 0, 0, 0.082); 
+
 }
 
 .hero-button,
