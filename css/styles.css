@@ -267,6 +267,33 @@ a {
     color: var(--h-color);
 }
 
+.team-section-title {
+    padding-top: 94px;
+    margin-bottom: 50px;
+}
+
+.team-list {
+    display: flex;
+    padding-bottom: 94px;
+}
+
+.team-card {
+    min-width: 270px;
+}
+
+.team-card img {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.team-card-title {
+    margin-bottom: 10px;
+}
+
+.team-list .team-card:not(:last-child) {
+    margin-right: 30px;
+}
+
 
 
 .what-our-direction h3{
@@ -293,6 +320,49 @@ a {
 .team-card-desc {
     font-weight: 400;
     color: var(--p-color);
+    margin-bottom: 16px;
+}
+
+.card-social-link {
+    display: flex;
+    justify-content: center;
+}
+
+.card-social-link li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 44px;
+    min-height: 44px;
+}
+.card-social-link li:not(:last-child) {
+    margin-right: 10px;
+}
+
+
+/* Regular Clients */
+.regular-clients-tittle {
+    padding-top: 94px;
+    margin-bottom: 50px;
+}
+
+.regular-klients-list {
+    display: flex;
+    padding-bottom: 94px;
+}
+
+.regular-klients-list li:not(:last-child) {
+    margin-right: 30px;
+}
+
+.regular-klients-list a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 170px;
+    min-height: 90px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
 }
 
 .logo .footer-logo {
@@ -302,6 +372,45 @@ a {
 /* для видимості */
 footer {
     background-color: #2F303A;
+}
+
+.footer .container {
+    display: flex;
+    padding-top: 60px;
+}
+
+.footer .logo {
+    margin-bottom: 20px;
+}
+
+.footer-adress {
+    margin-bottom: 60px;
+    margin-right: 69px
+}
+
+.footer-adress-item:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.footer-social {
+    margin-top: 12px;
+}
+
+.footer-social-list {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-social-list li {
+    display: flex;
+    min-width: 44px;
+    min-height: 44px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-social-list li:not(:last-child) {
+    margin-right: 10px;
 }
 
 .footer .footer-adress-link{
@@ -317,12 +426,13 @@ footer {
 }
 
 .foter-social-title {
+    display: block;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-
+    margin-bottom: 20px;
     color: #FFFFFF;
 }
 
