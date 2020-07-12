@@ -192,6 +192,7 @@ a {
     border-radius: 4px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 200px;
 }
 
 .hero-button,
@@ -205,6 +206,20 @@ a {
 
     color: #FFFFFF;
     background: var(--accent-color);
+}
+
+.about-us-list {
+    display: flex;
+    padding-top: 90px;
+    padding-bottom: 49px;
+}
+
+.about-us-list li:not(:last-child) {
+    margin-right: 30px;
+}
+
+.about-us-list .list-item {
+    min-width: 270px;
 }
 
 .about-title,
