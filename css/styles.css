@@ -281,7 +281,7 @@ a {
     min-width: 270px;
 }
 
-.team-card img {
+.team-card > img {
     display: block;
     margin-bottom: 30px;
 }
@@ -326,6 +326,8 @@ a {
 .card-social-link {
     display: flex;
     justify-content: center;
+    align-items: center;
+  
 }
 
 .card-social-link li {
@@ -334,7 +336,18 @@ a {
     align-items: center;
     min-width: 44px;
     min-height: 44px;
+
 }
+
+/* .card-social-link a {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    outline: 1px solid rgb(0, 255, 157);
+    min-width: 44px;
+    min-height: 44px;
+} */
+
 .card-social-link li:not(:last-child) {
     margin-right: 10px;
 }
