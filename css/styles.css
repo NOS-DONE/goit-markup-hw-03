@@ -222,6 +222,14 @@ a {
     min-width: 270px;
 }
 
+.what-do-we-do-title {
+    padding-top: 49px;
+}
+
+.what-do-we-do-list {
+    display: flex;
+}
+
 .about-title,
 .what-do-we-do-title,
 .team-section-title,
@@ -234,6 +242,8 @@ a {
     color: var(--h-color);
 }
 
+
+
 .about-second-title {
     font-weight: 700;
     font-size: 14px;
@@ -241,6 +251,7 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--h-color);
+    margin-bottom: 10px;
 }
 
 .about-description {
