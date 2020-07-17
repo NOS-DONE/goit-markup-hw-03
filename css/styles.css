@@ -101,8 +101,12 @@ a {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: #000000;
-    margin-right: 85px;
+    /* margin-right: 85px; */
     /* padding-top: 24px;  */
+}
+
+.nav .logo {
+    margin-right: 85px;
 }
 
 .logo span{
@@ -270,17 +274,6 @@ a {
     margin-bottom: 50px;
 }
 
-/* .regular-clients-tittle {
-}
-
-.team-section-title {
-    margin-bottom: 50px;
-}
-
-.what-do-we-do-title {
-    margin-bottom: 50px;
-} */
-
 .team-section {
     padding-top: 94px;
     background: #F5F4FA;
@@ -398,10 +391,9 @@ a {
     border-radius: 4px;
 }
 
-.logo .footer-logo {
-     color: #ffffff;
-}
 
+
+/* footer */
 /* для видимості */
 footer {
     background-color: #2F303A;
@@ -412,13 +404,18 @@ footer {
     padding-top: 60px;
 }
 
+.footer-adress .footer-logo {
+    color: #ffffff;
+}
+
 .footer .logo {
     margin-bottom: 20px;
 }
 
 .footer-adress {
-    margin-bottom: 60px;
-    margin-right: 69px
+    padding-bottom: 60px;
+    margin-right: 69px;
+    width: 231px;   
 }
 
 .footer-adress-item:not(:last-child) {
@@ -427,6 +424,7 @@ footer {
 
 .footer-social {
     margin-top: 12px;
+    width: 206px;
 }
 
 .footer-social-list {
