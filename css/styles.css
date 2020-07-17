@@ -243,40 +243,47 @@ a {
     color: var(--p-color);
 }
 
-.what-do-we-do-title {
+.what-do-we-do {
     padding-top: 49px;
-    margin-bottom: 50px;
+    padding-bottom: 94px;
 }
 
 .what-do-we-do-list {
     display: flex;
-    min-width: 370px;
-    padding-bottom: 94px;
+}
+
+.what-our-direction {
+    width: 370px;
 }
 
 .what-do-we-do-list .what-our-direction:not(:last-child) {
     margin-right: 30px;
 }
 
-.about-title,
-.what-do-we-do-title,
-.team-section-title,
-.regular-clients-tittle {
+.section-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--h-color);
+    margin-bottom: 50px;
 }
 
-.team-section {
-    background: #F5F4FA;
+/* .regular-clients-tittle {
 }
 
 .team-section-title {
-    padding-top: 94px;
     margin-bottom: 50px;
+}
+
+.what-do-we-do-title {
+    margin-bottom: 50px;
+} */
+
+.team-section {
+    padding-top: 94px;
+    background: #F5F4FA;
 }
 
 .team-list {
@@ -285,7 +292,7 @@ a {
 }
 
 .team-card {
-    min-width: 270px;
+    width: 270px;
     background: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
 
@@ -367,9 +374,9 @@ a {
 
 
 /* Regular Clients */
-.regular-clients-tittle {
+
+.regular-clients-section {
     padding-top: 94px;
-    margin-bottom: 50px;
 }
 
 .regular-klients-list {
